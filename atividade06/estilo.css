@@ -1,0 +1,90 @@
+body, header, article, footer { margin: 0px; }
+main, article { margin: 0px 50px 0px 50px; }
+header { width: 100%; background-color: black; height: 60px; }
+body {background-color: #fff;}
+
+footer { width: 100%; background-color: #000; height: 50px; margin-top: 10px;  }
+footer h1 {color: #fff; font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; padding-top: 10px; }
+
+#menu { background-color: #000; width: 200px; height: 60px; margin: 0 auto 0 auto; text-align: center; }
+#menu nav a { color: #fff; text-decoration: none; padding-top: 10px; display: inline-flex; margin-left: 10px; font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold }
+.borda {border-bottom: #ffc20e solid 3px; } 
+header h1 {color: #ffc20e; float: left; margin-left: 50px; }
+
+#conteudo {background-color: #fff; height: 700px; width: 100%;}
+#filmes { background-color:#fff; width: 50%; height: 700px; position: relative; float: left;}
+
+#filme1 { background-color: #fff; width: 100%; height: 45%; border-bottom: solid 1px #000; border-top: solid 1px #000 }
+#filme1 img { width: 340px; padding-top: 20px; float: left; margin: 0px 10px 10px 0px;}
+#filme1 h2 {font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; padding-top: 10px; }
+#filme1 p {font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: justify; margin-right: 10px; }
+#filme1 a { color: black; font-weight: bold; text-decoration: none; }
+
+#filme2 { background-color: #fff; width: 100%; height: 45%; }
+#filme2 img { width: 340px; padding-top: 10px; float: left; margin: 0px 10px 10px 0px;}
+#filme2 h2 {font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; padding-top: 10px; }
+#filme2 p {font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: justify; margin-right: 10px; }
+#filme2 a { color: black; font-weight: bold; text-decoration: none; }
+
+
+#series { background-color: #fff; width: 50%; height: 700px; position: relative; float: left;}
+
+#serie1 { background-color: #fff; width: 100%; height: 45%; border-top: solid 1px #000; border-left: solid 1px #000; border-bottom: solid 1px #000; }
+#serie1 img { width: 340px; padding-top: 20px; float: left; margin: 0px 10px 10px 0px; padding-left: 10px;}
+#serie1 h2 {font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; padding-top: 10px; }
+#serie1 p {font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: justify; margin-right: 10px; margin-left: 10px; }
+#serie1 a { color: black; font-weight: bold; text-decoration: none; }
+
+#serie2 { background-color: #fff; width: 100%; height: 45%; border-left: solid 1px #000; }
+#serie2 img { width: 340px; padding-top: 10px; float: left; margin: 0px 10px 10px 0px; padding-left: 10px;}
+#serie2 h2 {font-size: 18px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; padding-top: 10px; }
+#serie2 p {font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: justify; margin-right: 10px; margin-left: 10px; }
+#serie2 a { color: black; font-weight: bold; text-decoration: none; }
+
+
+h1 { font-size: 22px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; text-align: center; }
+
+#tabelas {background-color: #fff; width: 100%; height: 620px;}
+table, td, th { border: 1px solid black; }
+
+#tab1 {background-color: #fff; width: 50%; height: 600px; position: relative; float: left; }
+#tabfilmes th {text-align: center;}
+.fundo {background-color: rgb(160, 158, 158); color: white;}
+#tabfilmes {margin-top: 20px; width: 620px; height: 600px; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; }
+
+#tabfilmes tr td:nth-child(1){width: 10%;}
+#tabfilmes tr td:nth-child(2){width: 40%;}
+#tabfilmes tr td:nth-child(3){width: 10%;}
+#tabfilmes tr td:nth-child(4){width: 40%;}
+#tabfilmes tr:nth-child(2n){background-color: rgb(160, 158, 158);}
+
+#tab2 {background-color: #fff; width: 50%; height: 600px; position: relative; float: left; }
+#tabseries th {text-align: center;}
+.fundo {background-color: rgb(160, 158, 158); color: white;}
+#tabseries {margin-top: 20px; width: 620px; height: 600px; margin-left: 5px; border-collapse: collapse; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; }
+
+#tabseries tr td:nth-child(1){width: 10%;}
+#tabseries tr td:nth-child(2){width: 40%;}
+#tabseries tr td:nth-child(3){width: 10%;}
+#tabseries tr td:nth-child(4){width: 40%;}
+#tabseries tr:nth-child(2n){background-color: lime;}
+
+#corpo {width: 100%; height: 100%; background-color: #fff; margin-top: 20px; }
+#corpo h1 {font-size: 24px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold; text-align: center;}
+
+#poster {width: 600px; height: 420px; background-color: #fff; margin: 0px auto 0px auto; }
+#poster figure img {width: 600px; height: 400px; margin-left: -40px; border-radius: 20px;}
+#poster figure figcaption {text-align: center; font-size: 12px;}
+
+#sinopse {width: 600px; height: 100%; background-color: #fff; margin: 30px auto 0px auto; }
+#sinopse p {font-size: 16px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: justify;}
+.sp {font-size: 20px; font-weight: bold;}
+
+#video {width: 600px; height: 330px; background-color: #fff; margin: 30px auto 0px auto; text-align: center; }
+
+#detalhes {width: 600px; height: 200px; background-color: #fff; margin: 30px auto 0px auto; }
+#tabdetalhes {width: 600px; height: 150px; border-collapse: collapse; }
+#tabdetalhes td {padding-left: 10px;}
+
+
+    

@@ -1,0 +1,148 @@
+body { background-color: #1f1f1f; margin-top: auto; margin-bottom: 0px; }
+main#corpo { margin: auto 70px auto 70px; background-color: #3f3f3f; padding-bottom: 20px; }
+article#conteudo { background-color: #3f3f3f; }
+a { text-decoration: none; }
+header {border-bottom: #fff solid 1px;}
+header img { width: 70px; float: left; padding: 10px; margin-left: 40px;}
+nav { background-color: #3f3f3f; font-size: 16px; display: inline-flex; }
+header a, nav { color: #fff; padding: 10px; padding-left: 10px; }
+header nav a:hover { border-top: 1px solid yellow; }
+
+div#primeira { margin-top: 2px;}
+div#primeira figure { position: relative;}
+div#primeira figure img { width: 100%;  }
+div#primeira figure figcaption{ 
+    opacity: 0; 
+    position: absolute; 
+    top: 0px; 
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white; 
+    width: 100%; 
+    height: 100%; 
+    padding: 10px;	
+    box-sizing: border-box;	
+    transition: 1s; font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    letter-spacing: 2px;
+}
+div#primeira figure:hover figcaption{ opacity: 1;}
+
+#divrrover { margin-top: 2px;}
+#divrrover figure { position: relative;}
+#divrrover figure img { width: 100%;  }
+#divrrover figure figcaption{ 
+    opacity: 0; 
+    position: absolute;
+    top: 0px; 
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white; 
+    width: 100%; 
+    height: 100%; 
+    padding: 10px;
+    padding-left: 700px;	
+    box-sizing: border-box;	
+    transition: 1s; font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+    letter-spacing: 2px;
+}
+#divrrover figure:hover figcaption{ opacity: 1;}
+
+
+
+.space { letter-spacing: 2px; font-weight: bold; font-style: normal; }
+
+div#segunda { 
+    position: relative; 
+    width: 49%;
+    height: 500px; 
+    float: left; 
+    font-family: 'Lucida Sans', sans-serif; 
+    background-color: #3f3f3f;
+    padding-bottom: 15px; 
+}
+div#segunda h1 { 
+    font-family: Verdana, Tahoma, sans-serif; 
+    text-align: center; 
+    letter-spacing: 3px; 
+    font-size: 40px;
+    color: #fff; 
+    font-weight: lighter;
+}
+div#segunda li { 
+    font-family: 'Lucida Sans', sans-serif; 
+    color: #fff; 
+    text-align: justify; 
+    margin-right: 20px;
+    line-height: 20px; 
+    list-style: none; 
+    padding-top: 10px; 
+    font-size: 14px;
+}
+
+div#terceira { 
+    position: relative; 
+    width: 45%; 
+    float: left; 
+    height: 500px;
+    background-color: #2f2f2f; 
+    margin-left: 30px;
+    padding-bottom: 15px;     
+}
+div#terceira h1 { 
+    font-family: Verdana, Tahoma, sans-serif; 
+    text-align: center; 
+    letter-spacing: 3px; 
+    font-size: 40px;
+    color: #fff; 
+    font-weight: lighter; 
+}
+div#terceira li { 
+    font-family: 'Lucida Sans', sans-serif; 
+    color: #fff; 
+    text-align: justify; 
+    margin-right: 20px;
+    line-height: 20px; 
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 14px; 
+    border-bottom: 1px solid rgb(105, 104, 104);
+    
+}
+
+div#quarta { 
+    background-color: #2f2f2f;
+    margin-left: 30px;
+    margin-right: 42px;    
+    margin-top: 550px;      
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #ccc;
+     
+}
+#quarta h1 { padding: 10px; font-size: 18px; border-bottom: 2px solid yellow; width: 18%; }
+#imagens { display: flex; background-color: #2f2f2f; justify-content: center;  }
+.divsimg { width: 30%; background-color: #2f2f2f; margin: 1px; padding-right: 30px; }
+#modelos img { width: 300px; }
+#carros { color: #fff; display: inline; font-size: 14px; }
+#carros2 a:hover { color: yellow; }
+#carros2 a { background-color: red; color: #fff; }
+#carros2 { display: inline-flex; padding-left: 10px; font-size: 12px;}
+
+footer {
+    background-color: #3f3f3f;
+    margin: 5px 70px auto 70px;
+    padding: 2px;
+    border-top: 1px solid rgb(172, 168, 168);
+    height: 160px;
+}
+footer p {    
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;    
+}
+footer img { width: 100px; padding: 30px 0px 0px 50px; float: left; }
+#foot { position: relative; float: left; margin-left: 280px; }
+#footdireita { margin-right: 50px; position: relative; float: right; }
+
+
+
+
